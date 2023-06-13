@@ -1,6 +1,12 @@
+// core-modules
 const fs=require('fs');
 const http=require('http');
 const url=require('url');
+
+// 3rd party modules
+const slugify=require('slugify');
+
+// our own modules
 
 //////////////////////////////////////////////////////////////////////////////////////
 //Files
